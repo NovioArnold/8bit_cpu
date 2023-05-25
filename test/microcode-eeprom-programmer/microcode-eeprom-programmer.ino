@@ -39,8 +39,8 @@ uint16_t data[] = {
     MI|CO, RO|II|CE, IO|J  , 0     , 0             , 0,0,0, // 0110 - JMP
     MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 0111 - NOP
     MI|CO, RO|II|CE, IO|AI , 0     , 0             , 0,0,0, // 1000 - LDI
-    MI|CO, RO|II|CE, 0.    , 0     , 0             , 0,0,0, // 1001 - NOP
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1010 - NOP
+    MI|CO, RO|II|CE, 0.    , 0     , 0             , 0,0,0, // 1001 - SAD
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1010 - SSU
     MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1011 - NOP
     MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1100 - NOP
     MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1101 - NOP
