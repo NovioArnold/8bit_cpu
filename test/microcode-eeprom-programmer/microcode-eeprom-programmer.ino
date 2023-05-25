@@ -35,17 +35,17 @@ uint16_t data[] = {
     MI|CO, RO|II|CE, IO|MI , RO|BI , EO|AI         , 0,0,0, // 0010 - ADD
     MI|CO, RO|II|CE, IO|MI , RO|BI , EO|AI|SU      , 0,0,0, // 0011 - SUB
     MI|CO, RO|II|CE, IO|MI , AO|RI , 0             , 0,0,0, // 0100 - STA
-    MI|CO, RO|II|CE, IO|AI , 0     , 0             , 0,0,0, // 0101 - LDI
+    MI|CO, RO|II|CE, IO|MI , RO|BI , 0             , 0,0,0, // 0101 - LDB
     MI|CO, RO|II|CE, IO|J  , 0     , 0             , 0,0,0, // 0110 - JMP
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 0111 
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1000
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1001
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1010
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1011
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1100
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1101
-    MI|CO, RO|II|CE, AO|OI , 0     , 0             , 0,0,0, // 1110
-    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1111
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 0111 - NOP
+    MI|CO, RO|II|CE, IO|AI , 0     , 0             , 0,0,0, // 1000 - LDI
+    MI|CO, RO|II|CE, 0.    , 0     , 0             , 0,0,0, // 1001 - NOP
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1010 - NOP
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1011 - NOP
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1100 - NOP
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1101 - NOP
+    MI|CO, RO|II|CE, AO|OI , 0     , 0             , 0,0,0, // 1110 - OUT
+    MI|CO, RO|II|CE, 0     , 0     , 0             , 0,0,0, // 1111 - NOP
 };
 
 /*
