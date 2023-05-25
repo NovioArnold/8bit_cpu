@@ -12,20 +12,20 @@
 
 // Micro instructions
 #define HLT 0b1000000000000000 // Halt clock
-#define MI  0b0100000000000000 // Memory address register in 
-#define RI  0b0010000000000000 // RAM data in
+#define MI   0b0100000000000000 // Memory address register in 
+#define RI   0b0010000000000000 // RAM data in
 #define RO  0b0001000000000000 // RAM data out
 #define IO  0b0000100000000000 // Instruction register out
-#define II  0b0000010000000000 // Instruction register in
+#define II   0b0000010000000000 // Instruction register in
 #define AI  0b0000001000000000 // A register in
-#define AO  0b0000000100000000 // A register out
-#define EO  0b0000000010000000 // ALU out
-#define SU  0b0000000001000000 // ALU subtract
+#define AO 0b0000000100000000 // A register out
+#define EO 0b0000000010000000 // ALU out
+#define SU 0b0000000001000000 // ALU subtract
 #define BI  0b0000000000100000 // B register in
 #define OI  0b0000000000010000 // Output register in
 #define CE  0b0000000000001000 // Program counter enable
-#define CO  0b0000000000000100 // Program counter out
-#define J   0b0000000000000010 // Jump (program counter in)
+#define CO 0b0000000000000100 // Program counter out
+#define J    0b0000000000000010 // Jump (program counter in)
 #define FI  0b0000000000000001 // Flags in  
 
 // ARIS instruction set
